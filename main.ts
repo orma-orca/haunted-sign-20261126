@@ -2,7 +2,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const SIGN = "DO NOT ENTER: The ghost has been migrating one server since 1987. Please stop asking it for an ETA.";
+const SIGN = "HAUNTED. The ghost's cron job runs with the power off. Do not kill -9 it. It has your hostname.";
 
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(out, { recursive: true });
